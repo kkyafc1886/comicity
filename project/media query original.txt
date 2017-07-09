@@ -1,0 +1,43 @@
+@media screen and(max-width: 500px;){
+	
+	body{
+		position:absolute;
+	}
+	
+}
+
+@media screen and(max-width: 478px;){
+	
+	header{
+		position: relative;
+	}
+	#menu-icon{
+		display: inline-block;
+	}
+	nav ul, nav:active ul{
+		display:none;
+		position:absolute;
+		padding:20px;
+		background:#405580;
+		border: 1px solid #FFF;
+		right:20px;
+		top:60px;
+		width:50%;
+		border-radius: 2px 0 2px 2px;
+	}
+	nav li{
+		text-align: center;
+		width:100;
+		padding: 10px 0;
+		margin:0;
+	}
+	nav:hover ul{
+		display:block;	
+	}
+	section{
+		float:left;
+		width:100%
+		margin 0;
+		padding:0;
+		}
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    
+  <title>
+    CC Registration
+	</title>
+<link rel="icon" href="images/logo.png">
+	<style>
+html { 
+  background: url(images/color.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+	       
+ body {
+font: normal 0.9em Arial;
+	background: url('images/color.jpg');
+	font-size: 10pt;
+}
+        a {color:#1155CC;}
+        ul li {padding: 10px 0;}
+        header {display:block; 
+padding-top:0px;
+                padding-left:0px;
+                padding-right:0px;
+                padding-bottom:0px;    
+ 
+                text-align:center;
+                position:absolute; 
+                top:6%;
+                left:4%;
+                z-index:4;
+               }
+        header a {
+            font-family: sans-serif;
+            font-size: 24px;
+            line-height: 24px;
+            padding: 8px 13px 7px;
+            color: #B49D3F;
+            text-decoration:none;
+            transition: color 0.7s;
+        }
+        header a.active {
+            font-weight:bold;
+           
+            text-align: center;
+            display:inline-block;
+            border-radius: 50%;
+            background: gold;
+            color: #fff;
+        }
+
+</style>
+	</head>
+<body><center>
+<header>
+        <a href="home.html">Home</a>
+        <a href="category.html">Cateogery</a>
+        <a href="creator.html">Creators</a>
+        <a href="event.html">Event</a>
+        <a class="active" href="forum.html">Forum</a>
+    </header> 
+
+
+<div id="register" style="margin-top:100px;">  
+<h2>USER REGISTRATION FORM</h2>
+</div>
+  <form action="demo.asp" method="POST" name="myform">
+  <FIELDSET>
+  <table cellspacing="10">
+  <LEGEND>Personal details</LEGEND>
+  <tr><th>FIRST NAME</th>
+  <td><INPUT TYPE="TEXT" NAME="FNAME" PLACEHOLDER="pralhad" autofocus required>
+  </td>
+  </tr>
+  <tr><th>LAST NAME</th>
+  <td><INPUT TYPE="TEXT" NAME="LNAME" PLACEHOLDER="Kolambkar">
+  </td></tr>
+  <tr><th>EMAIL</th>
+  <td><INPUT TYPE="EMAIL" NAME="EMAILL" PLACEHOLDER="pvk@gmail.com" required> </td>
+  </tr>
+  <tr><th>PHONE</th>
+  <td><INPUT TYPE="tel" NAME="teleph" PLACEHOLDER="9999999999" required></td>
+  </tr>
+    <tr><th>GENDER</th>
+  <td><INPUT TYPE="radio" NAME="g" value="male" checked="yes">Male<br>
+  <INPUT TYPE="radio" NAME="g" value="female">Female</td>
+  </tr>
+  <tr><th>SELECT AGE GROUP</th>
+  <td> <select>
+  <option value="volvo">5-18</option>
+  <option value="saab">18-30</option>
+  <option value="opel">30-45</option>
+  <option value="audi">45+</option>
+  </select> </td>
+  </tr>
+  <tr><th>SELECT FAVOURITE CHARACTER</th>
+  <td> <select>
+  <option value="volvo">Jessica Jones</option>
+  <option value="saab">Deadpool</option>
+  <option value="opel">Wonder Woman</option>
+  <option value="audi">Spiderman</option>
+  </select> </td>
+  </tr>
+  
+  
+   <tr><th>CREATE PASSWORD</th>
+  <td><INPUT TYPE="password" NAME="pass" size="10" maxlength="8" value="pralhad"></td>
+  </tr>
+  <tr>
+  <td><INPUT TYPE="submit" NAME="s" value="SUBMIT"></td>
+  <td><INPUT TYPE="reset" NAME="r" value="RESET"></td>
+  </tr>
+  </table>
+  </legend>
+  </FIELDSET>
+  
+  </form>
+
+
+  </center>
+
+ </body>
+ <html>
